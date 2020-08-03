@@ -4,10 +4,14 @@ public class Programa {
 
     public static void main(String args[]){
 
-        for(int i=1;i<1.0;){
+        int[] v = {1,2,3,4,5};
 
-            System.out.println("Execução"+i);
+        for(int i=0;i<5;i++){
 
+            if(v[i]%2==1){
+
+            System.out.print(v[i]+"-");
+            }
         }
 
     }
